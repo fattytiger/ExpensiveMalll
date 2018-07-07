@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>login</title>
+		<style type="text/css">
+		*{
+				margin: 0;
+				padding: 0;
+		}
+		hr{
+			width: 1050px;
+			margin: 0 auto;
+		}
+		/*-------头-------部--------*/
+		 #index_top{
+            height: 150px;
+            width: 1100px;
+            background-image: url(images/h_bg.jpg);
+            background-size: 1100px 160px;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+        }
+        #index_top_topul
+        {
+            float: right;
+            width: 540px;
+            height: 30px;
+            list-style: none;
+            position: relative;
+            left: 15px;
+            top: -30px;
+        }
+        #index_top_topul a{
+            display: inline-block;
+            height: 15px;
+            width: 75px;
+            text-decoration: none;
+        }
+        #index_top_topul li{
+            float: left;
+        }
+        .index_login{
+            display: inline-block;
+            height: 20px;
+            width: 50px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        #index_top_topul_ioc1
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background: url(images/icon.gif) -3px 0px no-repeat;
+        }
+        #index_top_topul_ioc2
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background: url(images/icon.gif) -45px 0px no-repeat;
+        }
+            #index_top_topul_ioc3
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background: url(images/icon.gif) -92px 0px no-repeat;
+        }
+            #index_top_topul_ioc4
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background: url(images/icon.gif) -133px 0px no-repeat;
+        }
+        
+        #index_top_ulbottom
+        {   
+            position: relative;
+            font-size: 18px;
+            font-weight: bold;
+            top: 108px;
+            left: 25px;
+            list-style: none;
+        }
+        #index_top_ulbottom li{
+            float: left;
+            margin-left: 10px;
+        }
+        #index_top_ulbottom a{
+            display: block;
+            height: 40px;
+            width: 80px;
+            color: black;
+            text-decoration: none;  
+        }
+        #index_top_ulbottom a:hover{
+            color: red;
+        }
+        #index_top_text span{
+            position: relative;
+            display: inline-block;
+            width: 600px;
+            left:500px;
+            top: 0;
+            letter-spacing: 4px;
+            color: #808080;
+            font-size: 18px;
+        }
+		/*---------------------------------中部---------------------------*/
+		#login_mid{
+			width: 1050px;
+			height: 500px;
+			background:url(images/login_bg.gif) no-repeat;
+			background-size: 1050px 300px;
+			margin: 0 auto;
+		}
+		#login_mid_left{
+			width: 549px;
+			height: 500px;
+			float: left;
+			border-right: solid 1px #808080;
+		}
+		#login_mid_right{
+			width: 500px;
+			height: 500px;
+			float: left;
+		}
+		#login_member{
+			display: inline-block;
+			height: 50px;
+			width: 150px;
+			position: relative;
+			left: 30px;
+			top: 60px;
+		}
+		#login_selec{
+			height: 120px;
+			width: 400px;
+			margin: 70px 0 0 140px;	
+		}
+		#login_selec1{
+			margin-bottom: 15px;
+		}
+		#login_selec img{
+			display: inline-block;
+			height: 40px;
+			width: 100px;
+			margin: 10px 0 0 80px;
+		}
+		#login_ul{
+			height: 180px;
+			width: 480px;
+			margin-left: 70px;
+		}
+		#login_ul ul{
+			list-style:lao;
+		}
+		#login_ul li{
+			margin-bottom:20px ;
+		}
+		/*--------------------------------右边----------------------------*/
+		#login_regist{
+			height: 30px;
+			width: 100px;
+			font-size: 20px;
+			margin: 60px 0 0 30px;
+			color: #ff7500;
+		}
+		#login_regist_ul{
+			width: 400px;
+			height: 200px;
+			margin-left: 50px;
+		}
+		#login_regist_ul ul{
+			list-style: none;
+		}
+		#login_regist_ul li{
+			margin-bottom: 20px;
+		}
+		#login_regist_pic1{
+			display: inline-block;
+			height: 30px;
+			width: 30px;
+			background: url(images/icon.gif) 0px -125px no-repeat;
+		}
+		#login_regist_pic2{
+			display: inline-block;
+			height: 30px;
+			width: 30px;
+			background: url(images/icon.gif) 0px -165px no-repeat;
+		}
+		#login_regist_pic3{
+			display: inline-block;
+			height: 30px;
+			width: 30px;
+			background: url(images/icon.gif) 0px -205px no-repeat;
+		}
+		#login_regist_pic4{
+			display: inline-block;
+			height: 30px;
+			width: 30px;
+			background: url(images/icon.gif) 0px -245px no-repeat;
+		}
+		.login_regist_blue{
+			color: #00BFFF;
+			font-weight: bold;
+		}
+		#login_mid_right img{
+			display: inline-block;
+			height: 40px;
+			width: 180px;
+			margin: 10px 0 0 120px;
+		}
+		#login_mid_right_bot{
+			height: 100px;
+			width: 300px;
+			background-color: white;
+			margin-left: 50px;
+			border: 1px #f2bc71 solid;
+		}
+		.bot{
+			height:35px ;
+			width: 240px;
+			background-color: beige;
+			margin: 10px auto;
+			border: 1px  #f2bc71 solid;
+		}
+		#bot_p1{
+			display: inline-block;
+			height: 18px;
+			width: 18px;
+			margin: 8px 0 0 15px;
+			background: url(images/icon.gif) -20px -285px no-repeat;
+		}
+		#bot_p2{
+			display: inline-block;
+			height: 18px;
+			width: 18px;
+			margin: 8px 0 0 15px;
+			background: url(images/icon.gif) -20px -321px no-repeat;
+		}
+		/*---------------------------------尾部---------------------------*/
+		#index_bottom{
+			height: 180px;
+			width: 1050px;
+			background-color:#FFFFFF;
+			margin: 0 auto;
+		}
+		#index_bottom_connect{
+			height: 30px;
+			width: 1050px;
+			background-color:#FFFFFF;
+			text-align: center;
+			font-size: 15px;	
+		}
+		#index_bottom_connect span{
+			display: inline-block;
+			background-color: #FFFFFF;
+			margin-top: 7px;
+		}
+		
+		#index_bottom_copyright{
+			height: 90px;
+			width: 1050px;
+			background-color: #FFFFFF;
+			font-size: 18px;
+			text-align: center;
+		}
+		#index_bottom_picture{
+			height: 60px;
+			width: 800px;
+			background-color: #FFFFFF;
+			margin-left: 260px;
+		}
+		#index_bottom_picture .imglong{
+			display: inline-block;
+			height: 60px;
+			width: 200px;
+			float: left;
+			background-color: #FFFFFF;
+		}
+		#index_bottom_picture .imgshort{
+			display: inline-block;
+			height: 60px;
+			width: 60px;
+			float: left;
+			background-color: #FFFFFF;
+		}
+		</style>
+	</head>
+	<body>
+		<!-------------------------头部---------------------->
+		 <div id="index_top">
+            <ul id="index_top_ulbottom">
+                <li><a href="">首 页</a></li>
+                <li><a href="">家用电器</a></li>
+                <li><a href="">手机数码</a></li>
+                <li><a href="">日用百货</a></li>
+                <li><a href="">书 籍</a></li>
+                <li><a href="">帮助中心</a></li>
+                <li><a href="">免费开店</a></li>
+                <li><a href="">全球咨询</a></li>
+            </ul>
+                <ul id="index_top_topul">
+                    <li><span id="index_top_topul_ioc1"></span><a href="">购物车</a></li>
+                    <li><span id="index_top_topul_ioc2"></span><a href="">帮助中心</a></li>
+                    <li><span id="index_top_topul_ioc3"></span><a href="">加入收藏</a></li>
+                    <li><span id="index_top_topul_ioc4"></span><a href="">设为首页</a></li>
+                    <li class="index_login"><a href="">登录 </a></li>
+                    <li class="index_login"><a href="">注册</a></li>
+                </ul>
+            <div id="index_top_text">
+                <span>你好，欢迎访问贵美商城！118年6月22日19点16分</span>
+            </div>
+        </div>
+		<!----------------------------中部-------------------------->
+		<div id="login_mid">
+			<div id="login_mid_left">
+				<img src="images/logintitle.gif" id="login_member"/>
+				<div id="login_selec">
+					<div id="login_selec1">
+						<span>会员名:</span><input type="text" /><span>(可包含a-z、0-9和下换线)</span><br />
+					</div>
+					<span>密&nbsp;&nbsp;&nbsp;码:</span><input type="text" /><span>(至少包含6个字符)</span>
+					<img src="images/login.gif"/>
+				</div>
+				<div id="login_ul">
+					<ul>
+						<li><a href="">什么是安全登录</a>。</li>
+						<li>
+							香港會員（繁体中文用户）由此<a href="">登入</a>
+						</li>
+						<li><a href="">密码安全贴士</a>。</li>
+						<li>防止病毒或者木马窃取您的账号信息，<a href="">在线检查</a>您的电脑是否安全。</li>
+					</ul>
+				</div>
+			</div>
+			<div id="login_mid_right">
+				<div id="login_regist">
+					<span>注册会员</span>
+				</div>
+				<div id="login_regist_ul">
+					<ul>
+						<li>
+						<span id="login_regist_pic1">
+						</span>
+						<span class="login_regist_blue">
+							便宜有好货!
+						</span>
+						<span class="login_regist_black">
+							超过7000万件商品任您选
+						</span>
+						</li>
+						<li>
+						<span id="login_regist_pic2">
+						</span>
+						<span class="login_regist_blue">
+							买卖更安全!
+						</span>
+						<span class="login_regist_black">
+							交易超安全。
+						</span>
+						</li>
+						<li>
+						<span id="login_regist_pic3">
+						</span>
+						<span class="login_regist_blue">
+							免费开网店!
+						</span>
+						<span class="login_regist_black">
+							轻松赚钱交友。
+						</span>
+						</li>
+						<li>
+						<span id="login_regist_pic4">
+						</span>
+						<span class="login_regist_blue">
+							超人气社区!
+						</span>
+						<span class="login_regist_black">
+							彩活动每一天
+						</span>
+						</li>
+						
+					</ul>
+				</div>
+				<img src="images/registernow.gif"/>
+				<div id="login_mid_right_bot">
+					<div class="bot">
+						<span id="bot_p1">
+							
+						</span>
+						<span>
+							你已经是会员？
+						</span>
+						<a href="">由此登入</a>
+					</div>
+					<div class="bot">
+						<span id="bot_p2">
+							
+						</span>
+						<span>
+							繁体中文用户由此
+						</span>
+						<a href="">注册</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!----------------------------尾部-------------------------->
+		<div id="index_bottom">
+			<div id="index_bottom_connect">
+				<span>友情链接: 百度|Google|雅虎|淘宝|拍拍|易趣|当当|京东商城|迅雷|新浪|网易|搜狐|猫扑|开心网|新华网|凤凰网</span>
+			</div>
+			<hr />
+			<div id="index_bottom_copyright">
+				<font> COPYRIGHT &copy; 2003-2010 北京市贵美商城有限公司 ALL RIGHT RESERVED</font><br>
+				<font> 热线:400-66-13060 Email:server@prd.com</font><br>
+				<font>ICP:沪ICP备05021104号</font><br>
+			</div>
+			<div id="index_bottom_picture">
+					<img src="images/img1.gif" class="imglong"/>
+					<img src="images/img2.gif" class="imgshort"/>
+					<img src="images/img3.gif" class="imgshort"/>
+					<img src="images/img4.gif" class="imglong"/>
+			</div>
+		</div>
+	</body>
+</html>

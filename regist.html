@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>regist</title>
+		<style type="text/css">
+				*{
+				margin: 0;
+				padding: 0;
+		}
+		hr{
+			width: 1050px;
+			margin: 0 auto;
+		}
+		/*-------头-------部-------------------------------*/
+		 #index_top{
+            height: 150px;
+            width: 1100px;
+            background-image: url(images/h_bg.jpg);
+            background-size: 1100px 160px;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+        }
+        #index_top_topul
+        {
+            float: right;
+            width: 540px;
+            height: 30px;
+            list-style: none;
+            position: relative;
+            left: 15px;
+            top: -30px;
+        }
+        #index_top_topul a{
+            display: inline-block;
+            height: 15px;
+            width: 75px;
+            text-decoration: none;
+        }
+        #index_top_topul li{
+            float: left;
+        }
+        .index_login{
+            display: inline-block;
+            height: 20px;
+            width: 50px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        #index_top_topul_ioc1
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background: url(images/icon.gif) -3px 0px no-repeat;
+        }
+        #index_top_topul_ioc2
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background: url(images/icon.gif) -45px 0px no-repeat;
+        }
+            #index_top_topul_ioc3
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background: url(images/icon.gif) -92px 0px no-repeat;
+        }
+            #index_top_topul_ioc4
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background: url(images/icon.gif) -133px 0px no-repeat;
+        }
+        
+        #index_top_ulbottom
+        {   
+            position: relative;
+            font-size: 18px;
+            font-weight: bold;
+            top: 108px;
+            left: 25px;
+            list-style: none;
+        }
+        #index_top_ulbottom li{
+            float: left;
+            margin-left: 10px;
+        }
+        #index_top_ulbottom a{
+            display: block;
+            height: 40px;
+            width: 80px;
+            color: black;
+            text-decoration: none;  
+        }
+        #index_top_ulbottom a:hover{
+            color: red;
+        }
+        #index_top_text span{
+            position: relative;
+            display: inline-block;
+            width: 600px;
+            left:500px;
+            top: 0;
+            letter-spacing: 4px;
+            color: #808080;
+            font-size: 18px;
+        }
+		/*---------------------------中部------------------*/
+		#regist_mid{
+			height: 550px;
+			width: 1050px;
+			background: url(images/reg_bg.gif) no-repeat;
+			background-size: 1050px 260px;
+			margin: 0 auto;
+		}
+		.regist_text{
+			text-align: right;
+			float: left;
+			height: 450px;
+			width: 160px;
+			margin-top: 40px;
+		}
+		.regist_text span{
+			display: inline-block;
+			height: 30px;
+			width: 130px;
+			float: right;
+			margin-top:15px ;
+			font-size: 18px;
+		}
+		/*-------------------中部中-----------------------*/
+		.regist_select{
+			float: left;
+			height: 450px;
+			width: 400px;
+			margin-top: 40px;
+		}
+		input[type=text]{
+			display: inline-block;
+			height: 28px;
+			width: 160px;
+			margin-top:15px ;
+		}
+		.regist_select_radio{
+			height: 28px;
+			width: 130px;
+			margin-top: 15px;
+		}
+		#img1{
+			display: inline-block;
+			height: 20px;
+			width: 25px;
+			background: url(images/Male.gif) no-repeat;
+		}
+		#img2{
+			display: inline-block;
+			height: 20px;
+			width: 25px;
+			background: url(images/Female.gif) no-repeat;
+		}
+		input[type=file]{
+			display: inline-block;
+			height: 28px;
+			width: 130px;
+			margin-top:15px ;
+		}
+		#regist_select_checkbox{
+			height: 30px;
+			width: 180px;
+			margin-top: 25px;
+		}
+		#regist_option{
+			height: 30px;
+			width: 200px;
+			margin-top: 5px;
+		}
+		/*---------------------中右--------------------------*/
+		#regist_right{
+			height:450px ;
+			width: 400px;
+			float: left;
+			margin-top: 50px;
+			margin-left: 50px;
+		}
+		#regist_right_p1{
+			display: inline-block;
+			height: 25px;
+			width: 35px;
+			background: url(images/read.gif) no-repeat;
+		}
+		#regist_right_t1{
+			display: inline-block;
+			height: 30px;
+			width: 200px;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		#botpic{
+			width: 1050px;
+			height: 50px;
+			float: left;
+		}
+		#botpic img{
+			display: inline-block;
+			height: 40px;
+			width: 80px;
+		}
+		#botpic_1{
+			margin-left:150px ;
+		}
+		/*----------------------------底部--------------------------*/
+		#index_bottom{
+			height: 180px;
+			width: 1050px;
+			background-color:#FFFFFF;
+			margin: 0 auto;
+		}
+		#index_bottom_connect{
+			height: 30px;
+			width: 1050px;
+			background-color:#FFFFFF;
+			text-align: center;
+			font-size: 15px;	
+		}
+		#index_bottom_connect span{
+			display: inline-block;
+			background-color: #FFFFFF;
+			margin-top: 7px;
+		}
+		
+		#index_bottom_copyright{
+			height: 90px;
+			width: 1050px;
+			background-color: #FFFFFF;
+			font-size: 18px;
+			text-align: center;
+		}
+		#index_bottom_picture{
+			height: 60px;
+			width: 800px;
+			background-color: #FFFFFF;
+			margin-left: 260px;
+		}
+		#index_bottom_picture .imglong{
+			display: inline-block;
+			height: 60px;
+			width: 200px;
+			float: left;
+			background-color: #FFFFFF;
+		}
+		#index_bottom_picture .imgshort{
+			display: inline-block;
+			height: 60px;
+			width: 60px;
+			float: left;
+			background-color: #FFFFFF;
+		}
+		</style>
+	</head>
+	<body>
+		<!---------------------头部------------------------>
+		 <div id="index_top">
+            <ul id="index_top_ulbottom">
+                <li><a href="index.html" target="_blank">首 页</a></li>
+                <li><a href="">家用电器</a></li>
+                <li><a href="">手机数码</a></li>
+                <li><a href="">日用百货</a></li>
+                <li><a href="">书 籍</a></li>
+                <li><a href="">帮助中心</a></li>
+                <li><a href="">免费开店</a></li>
+                <li><a href="">全球咨询</a></li>
+            </ul>
+                <ul id="index_top_topul">
+                    <li><span id="index_top_topul_ioc1"></span><a href="">购物车</a></li>
+                    <li><span id="index_top_topul_ioc2"></span><a href="">帮助中心</a></li>
+                    <li><span id="index_top_topul_ioc3"></span><a href="">加入收藏</a></li>
+                    <li><span id="index_top_topul_ioc4"></span><a href="">设为首页</a></li>
+                    <li class="index_login"><a href="">登录 </a></li>
+                    <li class="index_login"><a href="">注册</a></li>
+                </ul>
+            <div id="index_top_text">
+                <span>你好，欢迎访问贵美商城！118年6月22日19点16分</span>
+            </div>
+        </div>
+		<!---------------------中部------------------------>
+		<div id="regist_mid">
+			<div class="regist_text">
+				<span>名字：</span>
+				<span>姓氏：</span>
+				<span>登录名：</span>
+				<span>密码：</span>
+				<span>再次输入密码：</span>
+				<span>电子邮箱：</span>
+				<span>性别：</span>
+				<span>头像：</span>
+				<span>爱好：</span>
+				<span>出生日期：</span>
+			</div>
+		<!-------------------中部中---------------------------->
+			<div class="regist_select">
+				<input type="text" name="" id="" value="" /><br>
+				<input type="text" name="" id="" value="" /><br>
+				<input type="text" name="" id="" value="" /><font>（可包含a-z、0-9和下划线）</font><br>
+				<input type="text" name="" id="" value="" /><font>（至少包含6个字符）</font><br>
+				<input type="text" name="" id="" value="" /><br>
+				<input type="text" name="" id="" value="" /><font>（必须包含@字符）</font><br>
+				<div class="regist_select_radio">
+					<input type="radio" name="sex"  value="man" /><font id="img1"></font><font>男</font>
+					<input type="radio" name="sex"  value="women" /><font id="img2"></font><font>女</font>
+				</div>
+				<input type="file" name="" id="" value="" /><br>
+				<div id="regist_select_checkbox">
+					<input type="checkbox" name="" id="" value="" /><font>运动</font>
+					<input type="checkbox" name="" id="" value="" /><font>聊天</font>
+					<input type="checkbox" name="" id="" value="" /><font>玩游戏</font>
+				</div>
+				<div id="regist_option">
+					<select name="年">
+					<option value="">1998</option>
+					<option value="">1999</option>
+					<option value="">2000</option>
+					</select>
+					<font>年</font>
+					<select name="月">
+					<option value=>1月</option>
+					<option value="">2月</option>
+					<option value="">3月</option>
+					</select>
+					<select name="日">
+					<option value=>1</option>
+					<option value="">2</option>
+					<option value="">3</option>
+					</select>
+					<font>日</font>
+				</div>
+			</div>
+		<!-----------------------中部右------------------------------>
+			<div id="regist_right">
+				<font id="regist_right_p1"></font><font id="regist_right_t1">阅读贵美网服务协议</font><br>
+				<textarea name="" rows="12" cols="35" readonly="readonly">欢迎阅读服务条款协议，本协议阐述之条款和条件适用于您使用Gmgw.com网站的各种工具和服务
+	本服务协议双方为贵美与贵美网用户，本服务协议具有合同效力。			
+	贵美的权利和义务
+	1.贵美有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术，使用户网上交易活动的顺利。 
+	2.对用户在注册使用贵美网上交易平台中所遇到的与交易或注册有关的问题及反映的情况，贵美应及时作出回复。 
+	3.对于在贵美网网上交易平台上的不当行为或其它任何贵美认为应当终止服务的情况，贵美有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。 
+	4.因网上交易平台的特殊性，贵美没有义务对所有用户的注册资料、所有的交易行为以及与交易有关的其他事项进行事先审查。
+				</textarea>
+			</div>
+			<div id="botpic">
+				<img src="images/submit.gif" id="botpic_1"/>
+				<img src="images/reset.gif"/>
+			</div>
+		</div>
+		<!---------------------底部------------------------>
+		<div id="index_bottom">
+			<div id="index_bottom_connect">
+				<span>友情链接: 百度|Google|雅虎|淘宝|拍拍|易趣|当当|京东商城|迅雷|新浪|网易|搜狐|猫扑|开心网|新华网|凤凰网</span>
+			</div>
+			<hr />
+			<div id="index_bottom_copyright">
+				<font> COPYRIGHT &copy; 2003-2010 北京市贵美商城有限公司 ALL RIGHT RESERVED</font><br>
+				<font> 热线:400-66-13060 Email:server@prd.com</font><br>
+				<font>ICP:沪ICP备05021104号</font><br>
+			</div>
+			<div id="index_bottom_picture">
+					<img src="images/img1.gif" class="imglong"/>
+					<img src="images/img2.gif" class="imgshort"/>
+					<img src="images/img3.gif" class="imgshort"/>
+					<img src="images/img4.gif" class="imglong"/>
+			</div>
+		</div>
+	</body>
+</html>
